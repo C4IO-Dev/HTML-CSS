@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmincas</h1>
+    <p>teste de tamanhos de imagens em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="Imagens/img-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/img-media.png" type="image/png">
+        <img src="Imagens/img-grande.png" alt="Foto grande">
+    </picture>
+
+    <h1>Audios</h1>
+    <p>Aqui vai uma música</p>
+    <audio preload="auto" controls autoplay loop>
+        <source src="midia/Vou Encher o Carro de Put4.mp3" type="audio/mpeg">
+        <source src="midia/Vou Encher o Carro de Put4.ogg" type="audio/ogg">
+        <source src="midia/Vou Encher o Carro de Put4.wav" type="audio/wav">
+        <p>Não foi possivel  reproduzir seu audio</p>
+    </audio>
+
+    <h1>Videos</h1>
+    <p>videos agora</p>
+    <video width="560" controls>
+        <source src="videos/Meu-Video-2.mp4" type="video/mp4">
+        <source src="videos/video.webm" type="webm">
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <p>Não foi possivel reproduzir esse audio!</p>
+    </video>
+
+    <h1>Videos externos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5Moi5nj4AQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
