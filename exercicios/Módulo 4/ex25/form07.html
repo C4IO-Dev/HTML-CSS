@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.js" method="get">
+
+        <p>
+            <label for="estd">Estado</label>
+            <select name="estado" id="estd">
+                <optgroup label="São Paulo">
+                    <option value="SP">São Paulo</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="São Paulo">
+                    <option value="SP">São Paulo</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="prof">Profissão: </label>
+            <input type="text" name="prof" id="prof" list="listprof">
+            <datalist id="listprof">
+                <optgroup>
+                    <option value="adm">Administrador</option>
+                    <option value="cont">Contador</option>
+                </optgroup>
+                <optgroup>
+                    <option value="dev">Desenvolvedor</option>
+                    <option value="prof">Professor</option>
+                </optgroup>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
