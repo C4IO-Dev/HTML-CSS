@@ -33,10 +33,12 @@ p{
 .material-icons{
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 6.3%;
     background-color: rgb(49, 49, 49);
     color: white;
     padding: 10px;
+    margin-bottom: 5px;
     cursor: pointer;
 }
 
@@ -55,8 +57,8 @@ p{
 }
 
 .itemlista{
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .linkmenu{
