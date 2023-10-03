@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .material-icons{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .lista{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main{
+        width: 768px;
+    }
+}
